@@ -30,6 +30,7 @@ public class WebDriverExample {
         // Отправляем форму, при этом дравер сам определит как отправить форму по элементу
         element.submit();
 
+
         // Проверяем тайтл страницы
         System.out.println("Page title is: " + driver.getTitle());
 

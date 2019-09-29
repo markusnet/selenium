@@ -21,6 +21,7 @@ public class WebDriverExample {
         // По-другому это можно сделать так:
         // driver.navigate().to("http://www.google.com");
 
+
         // Находим элемент по атрибуту name
         WebElement element = driver.findElement(By.name("q"));
 
